@@ -1,0 +1,59 @@
+### Test PNG Image Upload
+POST http://localhost:4000/upload
+Content-Type: multipart/form-data; boundary=WebKitFormBoundary7MA4YWxkTrZu0gW
+
+--WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="product"; filename="sample.png"
+Content-Type: image/png
+
+< ./sample.png
+--WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+### Test Add Product
+POST http://localhost:4000/addproduct
+Content-Type: application/json
+
+{
+    "name": "rtx 5090 pc",
+    "image": "http://localhost:4000/images/product_1782477199221.jpg",
+    "category": "pc",
+    "new_price": 85.00,
+    "old_price": 120.00
+}
+
+### Test Remove Product
+POST http://localhost:4000/removeproduct
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "rtx 5090 pc"
+}
+
+### Test Get All Products
+GET http://localhost:4000/allproducts
+
+### Test User Sign up
+POST http://localhost:4000/signup
+Content-Type: application/json
+
+{
+  "username": "johndoe",
+  "email": "johndoe@test.com",
+  "password": "mypassword123"
+}
+
+### Test User Login
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+  "email": "johndoe@test.com",
+  "password": "mypassword123"
+}
+
+### Test Get New Collections
+GET http://localhost:4000/newcollections
+
+### Test Get Popular In Desktops
+GET http://localhost:4000/popularindesktops
