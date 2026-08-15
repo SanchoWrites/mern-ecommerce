@@ -11,6 +11,8 @@ An e-commerce website built with MERN stack centered around selling desktops and
 5. Users can register & sign in (JWT-authenticated)
 6. Admin can create & delete products
 
+![Project screenshot](Frontend/src/Components/Assets/image_for_readme.png)
+
 ### Features:
 
   * React powers the interactive user interface for both the customer storefront and the admin panel
