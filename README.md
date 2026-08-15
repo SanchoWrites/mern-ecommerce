@@ -11,7 +11,7 @@ An e-commerce website built with MERN stack centered around selling desktops and
 5. Users can register & sign in (JWT-authenticated)
 6. Admin can create & delete products
 
-![Project screenshot](Frontend/src/Components/Assets/image_for_readme.png)
+![Project screenshot](Frontend/src/Components/Assets/image_for_readme.png?v=2)
 
 ### Features:
 
