@@ -46,7 +46,7 @@ An e-commerce website built with MERN stack centered around selling desktops and
    1. Create an atlas account
    2. Deploy a cluster
    3. In your cluster, click on Connect, choose the Drivers and Client Libraries option, select language JavaScript and client library Node.js Driver, turn on legacy URL string and copy the connection string
-   4. In the Backend folder, open index.js (and seed.js) and paste your connection string inside mongoose.connect(). Make sure to include your password inside the connection string.
+   4. In the Backend folder, open index.js (and seed.js) and paste your connection string inside mongoose.connect(). Make sure to include your password inside the connection string
 6. Seed the database
    ```bash
    cd Backend
