@@ -62,12 +62,12 @@ export const AddProduct = () => {
         </div>
         <div className="addproduct-price">
             <div className="addproduct-itemfield">
-                <p>Price</p>
-                <input value={productDetails.old_price} onChange={changeHandler} type="text" name="old_price" placeholder='Type here'/>
+                <p>New Price</p>
+                <input value={productDetails.new_price} onChange={changeHandler} type="text" name="new_price" placeholder='Type here'/>
             </div>
             <div className="addproduct-itemfield">
-                <p>Offer Price</p>
-                <input value={productDetails.new_price} onChange={changeHandler} type="text" name="new_price" placeholder='Type here'/>
+                <p>Old Price</p>
+                <input value={productDetails.old_price} onChange={changeHandler} type="text" name="old_price" placeholder='Type here'/>
             </div>
         </div>
         <div className="addproduct-itemfield">
@@ -75,6 +75,19 @@ export const AddProduct = () => {
             <select value={productDetails.category} onChange={changeHandler} name="category" className='add-product-selector'>
                 <option value="pc">Desktop</option>
                 <option value="laptop">Laptop</option>
+                <option value="motherboard">Motherboard</option>
+                <option value="cpu">CPU</option>
+                <option value="ram">RAM</option>
+                <option value="case">Case</option>
+                <option value="liquid-cooler">Liquid-Cooler</option>
+                <option value="cpu-cooler">CPU-Cooler</option>
+                <option value="gpu">GPU</option>
+                <option value="hard-drive">Hard-Drive</option>
+                <option value="software">Software</option>
+                <option value="sound">Sound card</option>
+                <option value="additional-cooling">Additional-Cooling</option>
+                <option value="wifi">WiFi Card</option>
+                <option value="psu">PSU</option>
             </select>
         </div>
         <div className="addproduct-itemfield">

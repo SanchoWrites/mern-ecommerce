@@ -1,0 +1,1104 @@
+[{
+  "_id": {
+    "$oid": "6a4116745377e87c418c18a1"
+  },
+  "id": 1,
+  "name": "AMD Ryzen 7 5800X / 32GB / 2TB M.2 SSD / RTX 5070 / Windows 11 Home",
+  "image": "http://localhost:4000/images/product_1782650484522.png",
+  "category": "pc",
+  "new_price": 1749,
+  "old_price": 2599,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:41:24.560Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41168e5377e87c418c18a2"
+  },
+  "id": 2,
+  "name": "Intel Core i7-14700KF / 32GB / 2TB SSD / RTX 5060 V4",
+  "image": "http://localhost:4000/images/product_1782650510238.png",
+  "category": "pc",
+  "new_price": 1559,
+  "old_price": 2019.01,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:41:50.279Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4116a45377e87c418c18a3"
+  },
+  "id": 3,
+  "name": "AMD Ryzen 7 5700X / 32GB / 1TB SSD / RTX 5070",
+  "image": "http://localhost:4000/images/product_1782650532324.png",
+  "category": "pc",
+  "new_price": 1549,
+  "old_price": 1999,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:42:12.366Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4116c05377e87c418c18a4"
+  },
+  "id": 4,
+  "name": "AMD Ryzen 7 5700X / 32GB / 1TB SSD / RTX 5070 / Windows 11 Home ",
+  "image": "http://localhost:4000/images/product_1782650560008.png",
+  "category": "pc",
+  "new_price": 1589,
+  "old_price": 2119,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:42:40.086Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4116d45377e87c418c18a5"
+  },
+  "id": 5,
+  "name": "HP OmniDesk M02-0005ns AMD Ryzen 7 8700G 16 GB DDR5 1TB SSD WiFi 6 FreeDOS",
+  "image": "http://localhost:4000/images/product_1782650580762.png",
+  "category": "pc",
+  "new_price": 729,
+  "old_price": 969,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:43:00.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4116e85377e87c418c18a6"
+  },
+  "id": 6,
+  "name": "Intel Core i7-14700KF / 32GB / 2TB SSD / RTX 5060 V2 White",
+  "image": "http://localhost:4000/images/product_1782650600626.png",
+  "category": "pc",
+  "new_price": 1469,
+  "old_price": 1699,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:43:20.737Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4117045377e87c418c18a7"
+  },
+  "id": 7,
+  "name": "AMD Ryzen 7 5800X / 32GB / 1TB SSD / RTX 5060 V2 / Windows 11 Home ",
+  "image": "http://localhost:4000/images/product_1782650628367.png",
+  "category": "pc",
+  "new_price": 1399,
+  "old_price": 1789,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:43:48.482Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41174b5377e87c418c18a8"
+  },
+  "id": 8,
+  "name": "AMD Ryzen 7 9800X3D / 32GB / 2TB SSD / RTX 5070 V3 / Windows 11 Home ",
+  "image": "http://localhost:4000/images/product_1782650699168.png",
+  "category": "pc",
+  "new_price": 2469,
+  "old_price": 3939,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:44:59.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41175d5377e87c418c18a9"
+  },
+  "id": 9,
+  "name": "Intel Core i5-12400 / 32GB / 2TB SSD / Windows 11 Home",
+  "image": "http://localhost:4000/images/product_1782650717685.png",
+  "category": "pc",
+  "new_price": 749,
+  "old_price": 869,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:45:17.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4117745377e87c418c18aa"
+  },
+  "id": 10,
+  "name": "Intel Core i7-14700KF / 32GB / 2TB SSD / RTX 5060 Ti 16GB V2",
+  "image": "http://localhost:4000/images/product_1782650740949.png",
+  "category": "pc",
+  "new_price": 1769,
+  "old_price": 2099,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:45:40.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4118535377e87c418c18b0"
+  },
+  "id": 11,
+  "name": "Intel Core i7-14700KF / 32GB / 2TB SSD / RTX 5060 V4 / Windows 11 Home ",
+  "image": "http://localhost:4000/images/product_1782650963938.png",
+  "category": "pc",
+  "new_price": 1609,
+  "old_price": 2079,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:49:23.977Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41187f5377e87c418c18b1"
+  },
+  "id": 12,
+  "name": "Intel Core i5-12400F / 32GB / 1TB SSD / RTX 5060 V3 / Windows 11 Home ",
+  "image": "http://localhost:4000/images/product_1782651007236.png",
+  "category": "pc",
+  "new_price": 1199,
+  "old_price": 1629,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:50:07.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41189a5377e87c418c18b2"
+  },
+  "id": 13,
+  "name": "Alurin Flex Advance AMD Ryzen 5 7430 15.6\" / 16 GB / 512GB / Windows 11 Home",
+  "image": "http://localhost:4000/images/product_1782651034833.png",
+  "category": "laptop",
+  "new_price": 469.99,
+  "old_price": 589.99,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:50:34.871Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4118b45377e87c418c18b3"
+  },
+  "id": 14,
+  "name": "PcCom Revolt 5070 Intel Core i7-14650HX 16\"/QHD /32GB/1TB",
+  "image": "http://localhost:4000/images/product_1782651060756.png",
+  "category": "laptop",
+  "new_price": 1379,
+  "old_price": 1700,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:51:00.797Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4118c95377e87c418c18b4"
+  },
+  "id": 15,
+  "name": "Acer Gaming Nitro V 16 AI ANV16-42 16\" AMD Ryzen 7 260 32GB 1TB SSD RTX 5060",
+  "image": "http://localhost:4000/images/product_1782651081477.png",
+  "category": "laptop",
+  "new_price": 1099,
+  "old_price": 1549.5,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:51:21.519Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4118e25377e87c418c18b5"
+  },
+  "id": 16,
+  "name": "MSI Cyborg 15 B2RWFKG-201XES Intel Core 7 240H 32GB DDR5 1TB SSD RTX 5060 15.6\" FHD RGB",
+  "image": "http://localhost:4000/images/product_1782651106836.png",
+  "category": "laptop",
+  "new_price": 1199,
+  "old_price": 1999,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:51:46.877Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4118fe5377e87c418c18b6"
+  },
+  "id": 17,
+  "name": "Acer Aspire Go 15 AG15-42P-R26T 15.6″ AMD Ryzen 7 5825U 16GB 512GB SSD FHD Wi-Fi 6 Plata",
+  "image": "http://localhost:4000/images/product_1782651134110.png",
+  "category": "laptop",
+  "new_price": 497,
+  "old_price": 549,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:52:14.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4119525377e87c418c18b8"
+  },
+  "id": 18,
+  "name": "Lenovo IdeaPad Slim 3 15IRH10 15,3\" Intel Core i5-13420H 16GB 1TB SSD Windows 11 Home",
+  "image": "http://localhost:4000/images/product_1782651218483.png",
+  "category": "laptop",
+  "new_price": 679,
+  "old_price": 799,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:53:38.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4119675377e87c418c18b9"
+  },
+  "id": 19,
+  "name": "HP HyperX OMEN 15-gb0005ns 15.3\" AMD Ryzen 7 260 24GB 1TB SSD RTX 5060 FreeDOS",
+  "image": "http://localhost:4000/images/product_1782651238998.png",
+  "category": "laptop",
+  "new_price": 1099,
+  "old_price": 1499,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:53:59.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a41197e5377e87c418c18ba"
+  },
+  "id": 20,
+  "name": "MSI Katana 15 HX B14WGK-086XES 15,6\" Intel Core i7-14650HX 32GB 1TB SSD RTX 507",
+  "image": "http://localhost:4000/images/product_1782651262154.png",
+  "category": "laptop",
+  "new_price": 1399,
+  "old_price": 2349,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:54:22.261Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4119905377e87c418c18bb"
+  },
+  "id": 21,
+  "name": "HP OMEN 16-ap0007ns AMD Ryzen AI 7 350 32GB 1TB SSD RTX 5070 8GB 16\"",
+  "image": "http://localhost:4000/images/product_1782651280737.png",
+  "category": "laptop",
+  "new_price": 1429,
+  "old_price": 1799,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:54:40.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a4119fb5377e87c418c18bf"
+  },
+  "id": 22,
+  "name": "ASUS V16 V3607VM-RP010 Intel Core 7 240H/32GB/1TB SSD/RTX 5060/16\"",
+  "image": "http://localhost:4000/images/product_1782651387776.png",
+  "category": "laptop",
+  "new_price": 1129,
+  "old_price": 1399,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:56:27.815Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a411a0b5377e87c418c18c0"
+  },
+  "id": 23,
+  "name": "Lenovo IdeaPad Slim 3 15IRH10 15,3\" Intel Core i5-13420H 16GB 1TB SSD Intel UHD Graphics",
+  "image": "http://localhost:4000/images/product_1782651403645.png",
+  "category": "laptop",
+  "new_price": 579,
+  "old_price": 799,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:56:43.686Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a411a1e5377e87c418c18c1"
+  },
+  "id": 24,
+  "name": "ASUS TUF Gaming FX608JMR-RV003 Intel Core i7-14650HX/32GB/1TB SSD/RTX 5060/16\"",
+  "image": "http://localhost:4000/images/product_1782651422498.png",
+  "category": "laptop",
+  "new_price": 1249.99,
+  "old_price": 1599,
+  "available": true,
+  "data": {
+    "$date": "2026-06-28T12:57:02.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daa07aee153af41f64415"
+  },
+  "id": 25,
+  "name": "MSI MPG B550 GAMING PLUS",
+  "image": "http://localhost:4000/images/product_1786620423707.jpg",
+  "category": "motherboard",
+  "new_price": 149.68,
+  "old_price": 159.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:27:03.906Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dab1caee153af41f64416"
+  },
+  "id": 26,
+  "name": "MSI PRO B850-S WIFI6E ATX AM5 PRO DDR5 M.2 Dual LAN RGB",
+  "image": "http://localhost:4000/images/product_1786620700211.webp",
+  "category": "motherboard",
+  "new_price": 149.68,
+  "old_price": 159.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:31:40.251Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dab36aee153af41f64417"
+  },
+  "id": 27,
+  "name": "ASUS Intel ATX LGA 1200 P12R-E DDR4 128GB M.2 SATA III AST2600",
+  "image": "http://localhost:4000/images/product_1786620726060.webp",
+  "category": "motherboard",
+  "new_price": 427.99,
+  "old_price": 450,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:32:06.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dab52aee153af41f64418"
+  },
+  "id": 28,
+  "name": "MSI B760 GAMING PLUS WIFI Intel B760 LGA1700 DDR4 ATX WiFi 6 PCIe 4.0",
+  "image": "http://localhost:4000/images/product_1786620754219.webp",
+  "category": "motherboard",
+  "new_price": 147.99,
+  "old_price": 159.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:32:34.262Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dab6baee153af41f64419"
+  },
+  "id": 29,
+  "name": "ASUS PRIME Z890-P WIFI Intel Z890 LGA1851 DDR5 ATX WiFi 7 Thunderbolt 4 PCIe 5.0",
+  "image": "http://localhost:4000/images/product_1786620779864.webp",
+  "category": "motherboard",
+  "new_price": 223.99,
+  "old_price": 250,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:32:59.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dabaaaee153af41f6441b"
+  },
+  "id": 30,
+  "name": "Ryzen 5 5600X",
+  "image": "http://localhost:4000/images/product_1786620842120.webp",
+  "category": "cpu",
+  "new_price": 158.06,
+  "old_price": 376,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:34:02.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dabc1aee153af41f6441c"
+  },
+  "id": 31,
+  "name": "Ryzen 7 5700X",
+  "image": "http://localhost:4000/images/product_1786620865026.webp",
+  "category": "cpu",
+  "new_price": 199.99,
+  "old_price": 379,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:34:25.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dabdcaee153af41f6441d"
+  },
+  "id": 32,
+  "name": "Ryzen 7 5800X",
+  "image": "http://localhost:4000/images/product_1786620892694.webp",
+  "category": "cpu",
+  "new_price": 251.99,
+  "old_price": 390,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:34:52.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dabecaee153af41f6441e"
+  },
+  "id": 33,
+  "name": "Ryzen 7 5800X3D",
+  "image": "http://localhost:4000/images/product_1786620908754.webp",
+  "category": "cpu",
+  "new_price": 358,
+  "old_price": 470,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:35:08.796Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dabfdaee153af41f6441f"
+  },
+  "id": 34,
+  "name": "Ryzen 5 7600x",
+  "image": "http://localhost:4000/images/product_1786620925837.webp",
+  "category": "cpu",
+  "new_price": 159,
+  "old_price": 366,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:35:25.875Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac26aee153af41f64420"
+  },
+  "id": 35,
+  "name": "Ryzen 7 7700X",
+  "image": "http://localhost:4000/images/product_1786620966356.webp",
+  "category": "cpu",
+  "new_price": 224.99,
+  "old_price": 488,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:36:06.394Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac43aee153af41f64421"
+  },
+  "id": 36,
+  "name": "Ryzen 7 7800X3D",
+  "image": "http://localhost:4000/images/product_1786620995654.webp",
+  "category": "cpu",
+  "new_price": 348.99,
+  "old_price": 549.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:36:35.693Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac59aee153af41f64422"
+  },
+  "id": 37,
+  "name": "Intel Core i5-10400",
+  "image": "http://localhost:4000/images/product_1786621017248.webp",
+  "category": "cpu",
+  "new_price": 171.99,
+  "old_price": 210,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:36:57.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac6caee153af41f64423"
+  },
+  "id": 38,
+  "name": "Intel Core i7-12700K",
+  "image": "http://localhost:4000/images/product_1786621036643.webp",
+  "category": "cpu",
+  "new_price": 366.1,
+  "old_price": 418,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:37:16.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac7daee153af41f64424"
+  },
+  "id": 39,
+  "name": "Intel Core Ultra 9 285K",
+  "image": "http://localhost:4000/images/product_1786621053669.webp",
+  "category": "cpu",
+  "new_price": 619,
+  "old_price": 799.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:37:33.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dac93aee153af41f64425"
+  },
+  "id": 40,
+  "name": "Corsair Vengeance DDR5 6000MHz 32 GB 2x16GB",
+  "image": "http://localhost:4000/images/product_1786621075355.webp",
+  "category": "ram",
+  "new_price": 436.99,
+  "old_price": 499.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:37:55.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daca9aee153af41f64426"
+  },
+  "id": 41,
+  "name": "Kingston FURY Beast DDR5 6000MHz 16GB 2x8GB",
+  "image": "http://localhost:4000/images/product_1786621097803.webp",
+  "category": "ram",
+  "new_price": 299.95,
+  "old_price": 330.02,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:38:17.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dacbaaee153af41f64427"
+  },
+  "id": 42,
+  "name": "Corsair Vengeance LPX DDR4 3200MHz PC4-25600 32GB 2x16GB",
+  "image": "http://localhost:4000/images/product_1786621114218.webp",
+  "category": "ram",
+  "new_price": 299.95,
+  "old_price": 320,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:38:34.258Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dacdaaee153af41f64428"
+  },
+  "id": 43,
+  "name": "Corsair Vengeance LPX DDR4 3200 PC4-25600 16GB 2X8GB",
+  "image": "http://localhost:4000/images/product_1786621146754.webp",
+  "category": "ram",
+  "new_price": 227.53,
+  "old_price": 320.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:39:06.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dacf2aee153af41f64429"
+  },
+  "id": 44,
+  "name": "Lian Li Lancool LAN217X",
+  "image": "http://localhost:4000/images/product_1786621170092.webp",
+  "category": "case",
+  "new_price": 159.99,
+  "old_price": 220.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:39:30.133Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad03aee153af41f6442a"
+  },
+  "id": 45,
+  "name": "Corsair 3500X LX-R RGB",
+  "image": "http://localhost:4000/images/product_1786621187743.webp",
+  "category": "case",
+  "new_price": 89.99,
+  "old_price": 157.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:39:47.782Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad1baee153af41f6442b"
+  },
+  "id": 46,
+  "name": "NOX Hummer M-240 LCD 240mm ARGB",
+  "image": "http://localhost:4000/images/product_1786621211234.webp",
+  "category": "liquid-cooler",
+  "new_price": 62.88,
+  "old_price": 79.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:40:11.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad37aee153af41f6442c"
+  },
+  "id": 47,
+  "name": "Arctic Liquid Freezer III Pro 360mm",
+  "image": "http://localhost:4000/images/product_1786621239651.webp",
+  "category": "liquid-cooler",
+  "new_price": 76.99,
+  "old_price": 99.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:40:39.690Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad4daee153af41f6442d"
+  },
+  "id": 48,
+  "name": "Be Quiet! Dark Rock 5 120mm",
+  "image": "http://localhost:4000/images/product_1786621261178.webp",
+  "category": "cpu-cooler",
+  "new_price": 64.95,
+  "old_price": 84.95,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:41:01.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad5eaee153af41f6442e"
+  },
+  "id": 49,
+  "name": "AK620 Zero Dark 120mm",
+  "image": "http://localhost:4000/images/product_1786621278339.webp",
+  "category": "cpu-cooler",
+  "new_price": 73.25,
+  "old_price": 85.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:41:18.380Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad77aee153af41f6442f"
+  },
+  "id": 50,
+  "name": "Gigabyte GeForce RTX 5060 WINDFORCE MAX OC 8GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621303268.webp",
+  "category": "gpu",
+  "new_price": 499.95,
+  "old_price": 530.02,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:41:43.306Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad88aee153af41f64430"
+  },
+  "id": 51,
+  "name": "MSI GeForce RTX 5060 Ti VENTUS 2X OC PLUS 16GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621320562.jpg",
+  "category": "gpu",
+  "new_price": 799.97,
+  "old_price": 849.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:42:00.602Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dad9daee153af41f64431"
+  },
+  "id": 52,
+  "name": "Gigabyte GeForce RTX 5070 WINDFORCE OC SFF 12GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621341571.webp",
+  "category": "gpu",
+  "new_price": 899.99,
+  "old_price": 950.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:42:21.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dadb2aee153af41f64432"
+  },
+  "id": 53,
+  "name": "MSI GeForce RTX 5070 Ti VENTUS 3X OC 16GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621362881.webp",
+  "category": "gpu",
+  "new_price": 1269.99,
+  "old_price": 1499.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:42:42.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dadc9aee153af41f64433"
+  },
+  "id": 54,
+  "name": "MSI GeForce RTX 5080 GAMING TRIO OC 16GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621385098.webp",
+  "category": "gpu",
+  "new_price": 1669.99,
+  "old_price": 1999.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:43:05.137Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daddcaee153af41f64434"
+  },
+  "id": 55,
+  "name": "MSI GeForce RTX 5090 VENTUS 3X OC 32GB GDDR7 Reflex 2 RTX AI DLSS4",
+  "image": "http://localhost:4000/images/product_1786621404496.webp",
+  "category": "gpu",
+  "new_price": 5369.99,
+  "old_price": 7361.43,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:43:24.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dadedaee153af41f64435"
+  },
+  "id": 56,
+  "name": "Gigabyte AMD Radeon RX 9060 XT GAMING OC 16GB GDDR6 FSR 4",
+  "image": "http://localhost:4000/images/product_1786621420942.jpg",
+  "category": "gpu",
+  "new_price": 559.99,
+  "old_price": 699.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:43:41.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae02aee153af41f64436"
+  },
+  "id": 57,
+  "name": "Gigabyte AMD Radeon RX 9070 GAMING OC 16GB GDDR6 FSR 4",
+  "image": "http://localhost:4000/images/product_1786621442111.webp",
+  "category": "gpu",
+  "new_price": 709,
+  "old_price": 849.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:44:02.184Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae0faee153af41f64437"
+  },
+  "id": 58,
+  "name": "Sapphire PULSE AMD Radeon RX 9070 XT 16GB GDDR6 FSR 4",
+  "image": "http://localhost:4000/images/product_1786621455387.jpg",
+  "category": "gpu",
+  "new_price": 899.95,
+  "old_price": 1099.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:44:15.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae25aee153af41f64438"
+  },
+  "id": 59,
+  "name": "Kingston NV3 1TB SSD 6000MB/S NVMe PCIe 4.0 M.2 Gen4",
+  "image": "http://localhost:4000/images/product_1786621477504.webp",
+  "category": "hard-drive",
+  "new_price": 149.94,
+  "old_price": 169.95,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:44:37.574Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae38aee153af41f64439"
+  },
+  "id": 60,
+  "name": "Samsung 990 Pro 2TB SSD 7450MB/S NVMe PCIe 4.0 M.2 Gen4",
+  "image": "http://localhost:4000/images/product_1786621496043.webp",
+  "category": "hard-drive",
+  "new_price": 351.99,
+  "old_price": 420.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:44:56.113Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae47aee153af41f6443a"
+  },
+  "id": 61,
+  "name": "Windows 11 Home",
+  "image": "http://localhost:4000/images/product_1786621511280.webp",
+  "category": "software",
+  "new_price": 49.99,
+  "old_price": 129.95,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:45:11.351Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae5daee153af41f6443b"
+  },
+  "id": 62,
+  "name": "Windows 11 Pro",
+  "image": "http://localhost:4000/images/product_1786621533162.webp",
+  "category": "software",
+  "new_price": 79.99,
+  "old_price": 158.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:45:33.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae6faee153af41f6443c"
+  },
+  "id": 63,
+  "name": "Creative Sound Blaster Audigy FX Pro 7.1 PCI Express",
+  "image": "http://localhost:4000/images/product_1786621551720.webp",
+  "category": "sound",
+  "new_price": 61.55,
+  "old_price": 69.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:45:51.790Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae81aee153af41f6443d"
+  },
+  "id": 64,
+  "name": "Lian-Li Uni SL 120 Infinity ARGB PWM Pack 3 Fans",
+  "image": "http://localhost:4000/images/product_1786621569178.webp",
+  "category": "additional-cooling",
+  "new_price": 65.58,
+  "old_price": 149.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:46:09.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7dae8eaee153af41f6443e"
+  },
+  "id": 65,
+  "name": "NOX Hummer PRO LINK 120mm ARGB Black Kit 3 Fans",
+  "image": "http://localhost:4000/images/product_1786621582880.webp",
+  "category": "additional-cooling",
+  "new_price": 27.45,
+  "old_price": 29.9,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:46:22.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daea6aee153af41f6443f"
+  },
+  "id": 66,
+  "name": "ASUS PCE-AX1800 Adaptador PCIe AX1800 WiFi 6 Bluetooth 5.2",
+  "image": "http://localhost:4000/images/product_1786621606810.webp",
+  "category": "wifi",
+  "new_price": 25.86,
+  "old_price": 39.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:46:46.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daebaaee153af41f64440"
+  },
+  "id": 67,
+  "name": "TP-Link Archer TXE75E Adaptador PCIe AXE5400 WiFi 6E Bluetooth 5.2",
+  "image": "http://localhost:4000/images/product_1786621626342.webp",
+  "category": "wifi",
+  "new_price": 45.99,
+  "old_price": 52.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:47:06.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daecfaee153af41f64441"
+  },
+  "id": 68,
+  "name": "MSI MAG A850GL PCIE5 II ATX 3.1 850W 80 Plus Gold Modular",
+  "image": "http://localhost:4000/images/product_1786621647873.webp",
+  "category": "psu",
+  "new_price": 94.99,
+  "old_price": 129.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:47:27.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a7daedeaee153af41f64442"
+  },
+  "id": 69,
+  "name": "Corsair RMx Series RM1000x PCIe 5.1 ATX 3.1 1000W 80 Plus Gold Modular",
+  "image": "http://localhost:4000/images/product_1786621662332.webp",
+  "category": "psu",
+  "new_price": 175.99,
+  "old_price": 199.99,
+  "available": true,
+  "data": {
+    "$date": "2026-08-13T11:47:42.403Z"
+  },
+  "__v": 0
+}]

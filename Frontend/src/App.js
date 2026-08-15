@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Shop } from './Pages/Shop';
 import { ShopCategory } from './Pages/ShopCategory';
 import { Product } from './Pages/Product';
+import { PcBuilder } from './Pages/PcBuilder';
 import { Cart } from './Pages/Cart';
 import { LoginSignup } from './Pages/LoginSignup';
 import { Footer } from './Components/Footer/Footer';
@@ -19,6 +20,7 @@ function App() {
         <Route path='/' element={<Shop/>}/>
         <Route path='/pc' element={<ShopCategory banner={pc_banner} category="pc"/>}/>
         <Route path='/laptop' element={<ShopCategory banner={laptop_banner} category="laptop"/>}/>
+        <Route path='/pc-builder' element={<PcBuilder/>}/>
         <Route path='/product' element={<Product/>}>
           <Route path=':productId' element={<Product/>}/>
         </Route>

@@ -1,0 +1,13 @@
+.pc-builder-page {
+  position: relative;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  overflow-x: hidden;
+}
+
+.pc-builder-main {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}

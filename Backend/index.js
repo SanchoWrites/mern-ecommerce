@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with MongoDB
-mongoose.connect("mongodb://parhomenko05082008_db_user:JXlEoEeiRhQyhLWM@ac-pdhehzc-shard-00-00.mqc0sj9.mongodb.net:27017,ac-pdhehzc-shard-00-01.mqc0sj9.mongodb.net:27017,ac-pdhehzc-shard-00-02.mqc0sj9.mongodb.net:27017/?ssl=true&replicaSet=atlas-c6mmvf-shard-0&authSource=admin&appName=Cluster0")
+mongoose.connect("mongodb://<USERNAME>:<PASSWORD>@ac-pdhehzc-shard-00-00.mqc0sj9.mongodb.net:27017,ac-pdhehzc-shard-00-01.mqc0sj9.mongodb.net:27017,ac-pdhehzc-shard-00-02.mqc0sj9.mongodb.net:27017/?ssl=true&replicaSet=atlas-c6mmvf-shard-0&authSource=admin&appName=Cluster0")
 
 // API creation
 app.get("/", (req, res) => {
@@ -42,11 +42,11 @@ app.post("/upload", upload.single('product'), (req, res) =>{
 const Product = mongoose.model("Product", {
     id: {
         type: Number,
-        require: true,
+        required: true,
     },
     name: {
         type: String,
-        require: true,
+        required: true,
     },
     image:{
         type: String,
@@ -151,10 +151,24 @@ app.post('/login', async (req, res) => {
 
 // Endpoint for newcollection data
 app.get('/newcollections', async (req, res) => {
-    let products = await Product.find({});
-    let newcollection = products.slice(-4);
-    console.log("New collection fetched");
-    res.send(newcollection);
+    try {
+        let latestDesktops = await Product.find({ category: "pc" })
+            .sort({ id: -1 }) // Sorts descending by ID to get the newest
+            .limit(2);        // Limits the result to 2 items
+
+        let latestLaptops = await Product.find({ category: "laptop" })
+            .sort({ id: -1 })
+            .limit(2);
+
+        let newcollection = [...latestDesktops, ...latestLaptops];
+        
+        console.log("New collection fetched");
+        res.send(newcollection);
+        
+    } catch (error) {
+        console.error("Error fetching new collections:", error);
+        res.status(500).send({ success: false, errors: "Internal Server Error" });
+    }
 })
 
 // Endpoint for popular in desktops section
@@ -184,8 +198,12 @@ const fetchUser = async (req, res, next) => {
 
 // Endpoint for adding products in cartdata
 app.post('/addtocart', fetchUser, async(req, res) => {
-    console.log("Added", req.body.itemId)
     let userData = await Users.findOne({ _id: req.user.id })
+
+    if (!userData.cartData[req.body.itemId]) {
+        userData.cartData[req.body.itemId] = 0;
+    }
+    
     userData.cartData[req.body.itemId] += 1;
     await Users.findOneAndUpdate({ _id: req.user.id }, { cartData: userData.cartData });
     res.send({ success: true, message: "Added" })
@@ -193,15 +211,14 @@ app.post('/addtocart', fetchUser, async(req, res) => {
 
 // Endpoint to remove product from cartdata
 app.post('/removefromcart', fetchUser, async(req, res) => {
-    console.log("Removed", req.body.itemId);
     let userData = await Users.findOne({ _id: req.user.id });
-    if (userData.cartData[req.body.itemId] > 0) {
+
+    if (userData.cartData[req.body.itemId] && userData.cartData[req.body.itemId] > 0) {
         userData.cartData[req.body.itemId] -= 1;
         await Users.findOneAndUpdate({ _id: req.user.id }, { cartData: userData.cartData });
     }
     res.send({ success: true, message: "Removed" });
 })
-
 // Endpoint to get cartdata
 app.post('/getcart', fetchUser, async(req, res) => {
     console.log("Get cart");

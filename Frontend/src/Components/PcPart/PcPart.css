@@ -1,0 +1,46 @@
+.pc-part-item {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+.pc-part-img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.pc-part-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pc-part-name {
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  color: #333;
+  line-height: 1.4;
+}
+
+.pc-part-pricing {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pc-part-new-price {
+  font-weight: bold;
+  color: #e53935;
+  font-size: 15px;
+}
+
+.pc-part-old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 13px;
+}
